@@ -1,0 +1,116 @@
+*{
+ 
+    background-color:#90bc8a;
+
+
+
+}
+.header{
+    width:100%;
+    background-color:#90bc8a;
+    position:static;
+    top:0rem;
+    left:0rem;
+    right:0rem;
+    height:2rem;
+    margin:0rem;
+    z-index:2;
+   
+}
+.header-button{
+    position:absolute;
+    right:3rem;
+    display:flex;
+    flex-direction:row;
+   justify-content:flex-end;
+   
+   
+}
+.header-button .button{
+    /* background-color:#198754;
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding:6px 12px;
+    color:white;
+    opacity:0.8; */
+    background: none;           /* looks like text */
+    border: none;
+    color:rgb(26, 44, 34);      /* same as header button */
+    padding:1rem 1.5rem;
+}
+.header-button .button:hover{
+    background-color:#198754;
+    color:white;
+    border-radius:5px;
+}
+
+.hero-top {
+
+    
+    display: flex;
+
+    flex-direction:column;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* aligns vertically (if taller row) */
+    gap: 0.5rem;             /* spacing between dropdown and button */
+    margin: 1rem;
+}
+/* #Images{
+    height:2rem;
+    width:14rem;
+    color:black;
+    font-size:1.5rem;
+    background-color:#cccbcb;
+} */
+ .hero-top select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 1rem; /* makes the corners rounded */
+    border: 1px solid #cccbcb; /* optional: adds a light border */
+    outline: none; /* removes default focus outline */
+}
+
+.add-image {
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    border-radius:1rem;
+    cursor: pointer;
+    border:1px solid #cccbcb;
+
+}
+.add-image:hover{
+    background-color:#198754;
+    color:white;
+}
+
+.image-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+    justify-content:center; /* centers items horizontally */
+    align-items: center;     /* centers items vertically */
+    gap:3rem;
+}
+.image-column{
+    display:flex;
+    flex-direction:column;
+    
+    gap:3rem;
+}
+.image-container-images{
+    height:15rem;
+    width:15rem;
+    overflow:hidden;
+    border-radius:1.2rem;
+    box-shadow:0.2rem 0.2rem 0.9rem black;
+}
+.image-container .image-container-images:hover{
+    transform:scale(1.05);
+}
+.image-container-images img{
+    height:100%;
+    width:100%;
+    object-fit:cover;/* ✅ keeps image aspect ratio */
+    
+}

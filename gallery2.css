@@ -1,0 +1,136 @@
+
+*{
+    background-color:#90bc8a;
+}
+.header{
+   width:100%;
+    background-color:#90bc8a;
+    position:static;
+    top:0rem;
+    left:0rem;
+    right:0rem;
+    height:2rem;
+    margin:1rem;
+    z-index:2;
+}
+.header-button{
+    position:absolute;
+    
+    right:3rem;
+    display:flex;
+    flex-direction:row;
+   justify-content:flex-end;
+   
+   
+}
+.header-button .button{
+    /* background-color:#198754;
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding:6px 12px;
+    color:white;
+    opacity:0.8; */
+    background: none;           /* looks like text */
+    border: none;
+    color:rgb(26, 44, 34);      /* same as header button */
+    padding:1rem 1.5rem;
+}
+.header-button .button:hover{
+    background-color:#198754;
+    color:white;
+    border-radius:5px;
+}
+.hero{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:4rem;
+   
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.folder{
+    display: block;
+    margin: 1.5rem auto;
+     padding:0.5rem 1rem;
+    font-size:1rem;
+    border-radius:1rem;
+    cursor: pointer;
+    border:1px solid #000000;
+}
+.folder:hover{
+    background-color:#198754;
+    color:white;
+}
+.input-text{
+    gap:1.5rem;
+}
+input{
+     padding:0.5rem 1rem;
+    font-size:1rem;
+    margin: 1.5rem auto;
+    border-radius:1rem;
+    border:1px solid #000000;
+    color:balck;
+    text-align:center;
+}
+
+select{
+     padding:0.5rem 1rem;
+    font-size:1rem;
+    border-radius:1rem;
+    border:1px solid #000000;
+    color:balck;
+    text-align:center;
+    cursor:pointer;
+
+}
+
+.hero-template{
+    height:20rem;
+    width:19rem;
+    border:0.1rem solid black;
+    border-radius:0.7rem;
+    background-color:white;
+    box-shadow:0.7rem 0.7rem   1rem rgb(26, 44, 34);;
+     overflow:hidden;
+     transition: transform 0.3s ease;
+     cursor: pointer;
+}
+.hero-template img{
+    height:14rem;
+    width:100%;
+     border-radius:0.2rem;
+}
+.folder-para{
+    height:auto;
+    width:100%;
+    margin:auto;
+    text-align:center;
+     background-color:white;
+     object-fit:cover;
+     overflow:hidden;
+
+}
+.folder-para p{
+     background-color:white;
+}
+.folder-para p b{
+     background-color:white;
+}
+.hero-template:hover {
+    transform: scale(1.05); /* scale on hover */
+}
+h2{
+    text-align:center;
+    font-size:2rem;
+   
+
+}
+   
